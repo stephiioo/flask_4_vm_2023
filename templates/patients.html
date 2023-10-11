@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patients</title>
+</head>
+<body>
+    <h1>Patients</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Patient Name</th>
+                <th>Doctor Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+            <tr>
+                <td>{{ row.patient_id }}</td>
+                <td>{{ row.patient_name }}</td>
+                <td>{{ row.doctor.doctor_name }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
+{% endblock %}

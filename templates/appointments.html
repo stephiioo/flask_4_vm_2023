@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+   
+</head>
+<body>
+    <h1>Appointments</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Appointment ID</th>
+                <th>Patient Name</th>
+                <th>Doctor Name</th>
+                <th>Appointment Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for appointment in data %}
+                <tr>
+                    <td>{{ appointment.appointment_id }}</td>
+                    <td>{{ appointment.patient.patient_name }}</td>
+                    <td>{{ appointment.patient.doctor.doctor_name }}</td>
+                    <td>{{ appointment.appointment_date }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
