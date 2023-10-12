@@ -55,4 +55,7 @@
 
 ### rationale for schema: honestly the reason I chose to create "patients", "doctors' and "appointments" is because those were the first tings that I thought of and it just seemed like the most ideal to do
 
-### challenges; i kept getting error messages and when I finally got the patients, doctors, and appointment tabs to open up, I couldn't get it to populate with fake data.
+### challenges:
+#### - i kept getting error messages and when I finally got the patients, doctors, and appointment tabs to open up, I couldn't get it to populate with fake data.
+
+#### - some of the screenshots i took were having trouble being uploaded so i put them in a document which i then downloaded as a pdf and submitted
