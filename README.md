@@ -31,9 +31,6 @@
 
 ### step 4: rveiew and create VM
 
-### rationale for schema: honestly the reason I chose to create "patients", "doctors' and "appointments" is because those were the first tings that I thought o and it just seemes like the most ideal to do
-
-### challenges; i kept getting error messages and when I finally got the patients, doctors, and appointment tabs to open up, I wasn;t able to get it to populate with fake ddat.
 
 ## VM setup process:
 
@@ -54,3 +51,8 @@
 ### step 4: type "sudo apt install mysql-server mysql-client" then type "Y" when prompted
 
 ### step 5: type "sudo MySQL" which will allow the terminal to display "MySQL>"
+
+
+### rationale for schema: honestly the reason I chose to create "patients", "doctors' and "appointments" is because those were the first tings that I thought of and it just seemed like the most ideal to do
+
+### challenges; i kept getting error messages and when I finally got the patients, doctors, and appointment tabs to open up, I couldn't get it to populate with fake data.
